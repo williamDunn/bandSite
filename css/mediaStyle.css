@@ -1,0 +1,15 @@
+  h3{
+  font-style: italic;
+  text-align: center;
+  }
+  
+  .container{
+  padding-left: 70px;
+  margin: 0 auto;
+  align-content: center;
+  }
+  
+  .video {
+    float:right;
+}
+  

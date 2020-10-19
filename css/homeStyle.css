@@ -1,0 +1,68 @@
+
+body{
+margin: 0;
+padding: 0;
+font-family: 'Arial', serif;
+background-color: #070707;
+}
+
+.nav{
+color: #F8FDFF;
+list-style: none;
+text-align: center;
+padding: 30px 0 30px 0;
+background-color: #070707;
+}
+
+.nav li{
+display: inline-block;
+padding: 0 80px 0 80px;
+}
+
+.nav li a{
+text-decoration: none;
+color: #808080;
+font-size: 120%;
+}
+
+.nav li a:hover{
+color: white;
+}
+
+.nav li a:active{
+color: white;
+}
+
+ .banner{
+ width: 100%;
+ display: block;
+  overflow: hidden;
+ }
+  
+ .banner-image{
+ width: 100%;
+ display: block;
+ overflow: hidden;
+ }
+ 
+ audio{
+ display:none;
+ }
+ 
+ @media only all and (max-width: 64em){
+	 .nav li{
+	 box-sizing:border-box;
+	 width: 100%;
+	 padding: 15px;
+	 display:block;
+	 background-color: #202222;
+	 }
+	 
+	 .nav li:hover{
+	background-color: #303030;
+	}
+	 
+	 .nav li:active{
+	 background-color: #303030;
+	 }
+ }
